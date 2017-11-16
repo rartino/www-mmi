@@ -1,0 +1,40 @@
+baseurl = "http://mmi.openmaterialsdb.se/"
+languageCode = "en-us"
+canonifyurls = true
+paginate = 10
+title = "Materials Modeling and Informatics"
+theme = "startbootstrap-clean-blog"
+#theme = "ananke"
+#theme = "hugo-artists-theme"
+ignoreFiles = [ "~$", "^#" ]
+
+[author]
+  name = "Rickard Armiento"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Research Group"
+  Author = "Rickard Armiento"
+  postSummariesFrontPage = 4
+  showReadTime = true
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/planetmatsci"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/rartino"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/planetmatsci"
+
+[[menu.main]]
+  name = "About"
+  url = "/"
+  weight = -200
+
+[[menu.main]]
+  name = "Rickard's corner"
+  url = "/post/"
+  weight = -180
+
